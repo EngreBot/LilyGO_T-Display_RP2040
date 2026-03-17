@@ -1,0 +1,37 @@
+Em português
+
+1°Baixe a pasta do github nesse link:
+https://github.com/Xinyuan-LilyGO/LILYGO-T-display-RP2040
+
+2°Descompacte o arquivo zip.
+
+3°Abra a pasta firmware
+
+Faça esse procedimento agora:
+
+Faça tudo isso com a placa conectada no computador e a IDE do arduino aberta!!!
+
+Abra a imagem 1 para ver melhor os botões.
+
+1° Segure o botão de boot e não solte
+2°Segure o botão de reset ao mesmo tempo por 1 ou 2 segundos e depois solte
+3°Solte o botão de boot 1 segundo depois de soltar o de reset
+
+Faça tudo isso com a placa conectada no computador e a IDE do arduino aberta.
+
+Em seguida, vai abrir um dispositivo USB (é o da placa) automaticamente no seu gerenciador de arquivos.
+
+Faça isso agora:
+
+1°Na pasta firmaware que você abriu, tem um arquivo no formato "UF2", NÃO É O INO!, arraste o arquivo "firmaware.UF2" para o dispositivo USB que abriu automaticamente chamado: "RPI-RP2"
+(Talves seja outro nome, aqui foi esse).
+
+2°Feche a pasta do dispositivo USB, você verá que vai começar uma animação na tela!!
+
+3° Agora adicione a biblioteca no arquino, adicione manualmente, você deve saber como já faz isso, deixarei a pasta junto a pasta do código de exemplo que salvei.
+
+4° Teste o código de exemplo enviando através da ide do arduino, selecionando a placa certa na ide e a porta.
+
+5°Use esse link para adicionar a placa:https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json
+Instale esse pacote: O nome ta na imagem 1.
+Não funciona com outro!

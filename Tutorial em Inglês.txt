@@ -1,0 +1,36 @@
+
+1°Download the github folder at this link:
+https://github.com/Xinyuan-LilyGO/LILYGO-T-display-RP2040
+
+2°Unzip the zip file.
+
+3°Open the firmware folder
+
+Do this now:
+
+Do all this with the board connected to the computer and the Arduino IDE open!!!
+
+Open image 1 to see the buttons better.
+
+1° Hold the boot button and do not let go
+2°Hold the reset button at the same time for 1 or 2 seconds and then release
+3°Release the boot button 1 second after releasing the reset button
+
+Do all this with the board connected to the computer and the Arduino IDE open.
+
+It will then open a USB device (it's the one on the board) automatically in your file manager.
+
+Do it now:
+
+1°In the firmware folder that you opened, there is a file in the 'UF2' format, IT IS NOT THE INO!, drag the file 'firmware.UF2' to the USB device that opened automatically called: 'RPI-RP2'
+(Maybe it's another name, here it was).
+
+2°Close the USB device folder, you will see that an animation will start on the screen!!
+
+3° Now add the library to the file, add it manually, you should know how to do it, I'll leave the folder next to the example code folder that I saved.
+
+4° Test the example code by sending it through the Arduino IDE, selecting the right board in the IDE and the port.
+
+5°Use this link to add the board: https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json
+Install the package described in image 1.
+It doesn't work with another!
